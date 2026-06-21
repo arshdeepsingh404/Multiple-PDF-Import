@@ -2,7 +2,13 @@
 
 A powerful, high-productivity AutoCAD plugin designed to automate the process of importing multiple PDF files simultaneously. Bypassing the native AutoCAD limitation of importing PDF sheets one-by-one, this tool allows users to bulk-import pages or export them as individual drawings quickly and cleanly.
 
----
+<p align="center">
+  <img width="60%" height="633" alt="MultiplePDFImport" src="https://github.com/user-attachments/assets/7088e3a6-0254-4707-8b00-c96dc2fadf65" />
+</p>
+
+&nbsp;
+<p align="center">◈ ◈ ◈</p>
+&nbsp;
 
 ## Key Features
 
@@ -12,24 +18,34 @@ A powerful, high-productivity AutoCAD plugin designed to automate the process of
 * **Non-Destructive Individual Exports**: Convert PDF pages directly into separate standalone AutoCAD drawing (`.dwg`) files in a designated folder without altering your active drawing.
 * **Multi-Version AutoCAD Support**: Built for AutoCAD versions 2021 through 2027 using target framework outputs for `.NET 4.8`, `.NET 8.0`, and `.NET 10.0`.
 
----
+&nbsp;
+<p align="center">◈ ◈ ◈</p>
+&nbsp;
 
-## Installation & Deployment
+## Download from Autodesk App Store
+For the simplest experience, download the Custom Object Snap add-in directly from the Autodesk App Store. The installer handles all configuration automatically.
 
-### Option 1: Autodesk App Store (Recommended)
 1. Download the installer from the **Autodesk App Store**.
-2. Run the executable; the installer handles all bundle folder placements and configuration automatically.
-3. Open AutoCAD and run the command `MPDFIMPORT`.
+2. Run the executable, and the installer will handle all bundle folder placements and configuration automatically.
+3. Open AutoCAD and run the command **MPDFIMPORT**.
 
-### Option 2: Manual Installation (GitHub)
-1. Download the `MultiplePDFImport.bundle` folder.
-2. Copy the folder to your local Autodesk plugins directory:  
-   `%APPDATA%\Autodesk\ApplicationPlugins\`
-3. Launch or restart AutoCAD.
-4. Click **Always Load** on the security prompt.
-5. Enter `MPDFIMPORT` at the command prompt to open the dialog window.
+&nbsp;
+<p align="center">◈ ◈ ◈</p>
+&nbsp;
 
----
+## Download from GitHub
+If you prefer to manage your plugins manually or are using the version from GitHub, use the Autoloader method. This ensures the add-in is loaded automatically every time you open AutoCAD.
+
+1. Navigate to the Releases tab on the right side of this GitHub repository.
+2. Download the **CustomObjectSnap.bundle** zipped folder.
+3. Copy and extract the folder to: %APPDATA%\Autodesk\ApplicationPlugins\
+4. Launch or restart AutoCAD.
+5. Approve the security prompt by clicking “Always Load.”
+6. Enter `MPDFIMPORT` at the command prompt to open the dialog window.
+
+&nbsp;
+<p align="center">◈ ◈ ◈</p>
+&nbsp;
 
 ## Workflow & Usage
 
@@ -43,7 +59,9 @@ A powerful, high-productivity AutoCAD plugin designed to automate the process of
    * **Export as Individual DWGs**: Specify an output folder where the plugin will save each PDF page as its own `.dwg` file (fully non-destructive).
 4. **Execute**: Click **Import PDF** to run the batch process. Press the `F1` key at any point in the dialog to open the help documentation.
 
----
+&nbsp;
+<p align="center">◈ ◈ ◈</p>
+&nbsp;
 
 ## Supported Options Reference
 
@@ -59,7 +77,9 @@ A powerful, high-productivity AutoCAD plugin designed to automate the process of
 | **Horizontal / Vertical Offset** | Defines horizontal and vertical spacing margins between adjacent sheet frames. |
 | **Scale / Rotation** | Sets a scaling factor multiplier and rotation degrees for imported vectors. |
 
----
+&nbsp;
+<p align="center">◈ ◈ ◈</p>
+&nbsp;
 
 ## Compatibility Matrix
 
@@ -69,17 +89,20 @@ A powerful, high-productivity AutoCAD plugin designed to automate the process of
 | **AutoCAD 2025 – 2026** | `R25.0` – `R25.1` | `net8.0-windows` | **.NET 8.0** (Core) |
 | **AutoCAD 2027** | `R26.0` | `net10.0-windows` | **.NET 10.0** (Core) |
 
----
-
-## Privacy Policy
-
-This plugin operates entirely locally on your workstation. We do not collect, store, or transmit any personal data, telemetry, or drawing information.
-
-For the full detailed terms, please review our [Privacy Policy](PRIVACY.md).
-
----
+&nbsp;
+<p align="center">◈ ◈ ◈</p>
+&nbsp;
 
 ## Developer
-**Arshdeep Singh**  
+**Arshdeep Singh**<br>
 Full-Stack Industrial Automation Developer  
-*Autodesk Expert Elite* | C. Tech | CMSE® | CAPM®
+Autodesk Expert Elite | C. Tech | CMSE® | CAPM®
+
+&nbsp;
+<p align="center">◈ ◈ ◈</p>
+&nbsp;
+
+## Version History
+| Version | Date | Changes |
+| :--- | :--- | :--- |
+| **1.0.0** | June 2026 | Pre Release |
