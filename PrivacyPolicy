@@ -1,0 +1,15 @@
+# Privacy Policy for Multiple PDF Import
+
+This Privacy Policy section describes the data practices for the Multiple PDF Import application. To promote transparency and protect user privacy, this policy explicitly addresses the mandatory requirements of the Autodesk App Store.
+
+### 1. Data Collection and Usage
+This application operates completely locally on your workstation. It does not collect, record, store, or transmit any user data, drawing metadata, or PDF file contents. It temporarily holds file paths and configurations in local volatile memory (RAM) to run commands and maintain dialog state during the AutoCAD session.
+
+### 2. Third-Party Sharing
+No information is shared with third parties. No analytics, tracking SDKs, or external services are embedded inside the plugin.
+
+### 3. Data Retention and Deletion
+Because the plugin does not collect user data, there is no persistent storage or data retention. Session configuration parameters are cleared when the AutoCAD application is closed.
+
+### 4. User Consent and Data Revocation
+Since no data is collected, there is no personal data to request deletion of. Users can effectively revoke consent at any time by uninstalling the application.
