@@ -3,7 +3,7 @@
 A powerful, high-productivity AutoCAD plugin designed to automate the process of importing multiple PDF files simultaneously. Bypassing the native AutoCAD limitation of importing PDF sheets one-by-one, this tool allows users to bulk-import pages or export them as individual drawings quickly and cleanly.
 
 <p align="center">
-  <img width="60%" height="633" alt="MultiplePDFImport" src="https://github.com/user-attachments/assets/7088e3a6-0254-4707-8b00-c96dc2fadf65" />
+  <img width="80%" height="633" alt="MultiplePDFImport" src="https://github.com/user-attachments/assets/7088e3a6-0254-4707-8b00-c96dc2fadf65" />
 </p>
 
 &nbsp;
