@@ -17,7 +17,7 @@ A powerful, high-productivity AutoCAD plugin designed to automate the process of
 * **Batch PDF Processing**: Import multiple PDF files or select specific page ranges to process from multi-page documents.
 * **Smart Geometry Packaging**: Automatically package imported geometries into AutoCAD **Groups** or **Block Definitions** to keep drawings organized.
 * **Auto-Arrangement Layout**: Arrange imported pages in clean horizontal or vertical rows based on page sizing parameters and grid offsets.
-* **Non-Destructive Individual Exports**: Convert PDF pages directly into separate standalone AutoCAD drawing (`.dwg`) files in a designated folder without altering your active drawing.
+* **Individual DWG Exports**: Convert PDF pages directly into separate standalone AutoCAD drawing (`.dwg`) files in a designated folder without altering your active drawing.
 * **Multi-Version AutoCAD Support**: Built for AutoCAD versions 2021 through 2027 using target framework outputs for `.NET 4.8`, `.NET 8.0`, and `.NET 10.0`.
 
 &nbsp;
