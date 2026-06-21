@@ -111,4 +111,4 @@ Autodesk Expert Elite | C. Tech | CMSE® | CAPM®
 ## Version History
 | Version | Date | Changes |
 | :--- | :--- | :--- |
-| **1.0.0** | June 2026 | Pre Release |
+| **1.0.0-beta** | June 2026 | Pre Release |
