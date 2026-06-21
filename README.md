@@ -51,15 +51,19 @@ If you prefer to manage your plugins manually or are using the version from GitH
 
 ## Workflow & Usage
 
-1. **Add PDF Files**: Click **Add PDF Files** to select the documents you want to process. Select duplicates or unneeded files and click **Remove** to exclude them.
-2. **Configure Packaging & Range**:
-   * **Import each page as Group**: Groups the vectors for each imported page to avoid overlapping lines.
-   * **Import each page as Block**: Creates a distinct block definition in the database for each page.
+### Step 1: Add PDF Files
+Click **Add PDF Files** to select the documents you want to process. Select duplicates or unneeded files and click **Remove** to exclude them.
+### Step 2: Configure Packaging & Range
+   * **Import each page as Group**: Creates a group for each imported page.
+   * **Import each page as Block**: Creates a block for each imported page.
    * **Page Range**: Choose to import all pages or specify a custom range.
-3. **Choose Placement Option Mode**:
-   * **Insert into Current DWG**: Layout pages in a grid within your active model space. You can select standard paper size formats (ANSI, ISO, ARCH), set max sheets per row, horizontal/vertical spacing offsets, scale, rotation, and specify the insertion point on-screen.
-   * **Export as Individual DWGs**: Specify an output folder where the plugin will save each PDF page as its own `.dwg` file (fully non-destructive).
-4. **Execute**: Click **Import PDF** to run the batch process. Press the `F1` key at any point in the dialog to open the help documentation.
+### Step 3: Choose Placement Option Mode
+   * **Insert into Current DWG**: Layout pages in a grid within your active model space. You can select standard paper size formats, set max sheets per row, horizontal/vertical spacing offsets, scale, rotation, and specify the insertion point on-screen.
+   * **Export as Individual DWGs**: Specify an output folder where the plugin will save each PDF page as its own `.dwg` file.
+### Step 4: Execute
+Click **Import PDF** to run the batch process.
+
+Press the `F1` key at any point in the dialog to open the help documentation.
 
 &nbsp;
 <p align="center">◈ ◈ ◈</p>
@@ -85,11 +89,11 @@ If you prefer to manage your plugins manually or are using the version from GitH
 
 ## Compatibility Matrix
 
-| AutoCAD Version | internal Series | Target Framework | Runtime Requirement |
+| AutoCAD Version | Target Framework | Runtime Requirement |
 | :--- | :--- | :--- | :--- |
-| **AutoCAD 2021 – 2024** | `R24.0` – `R24.3` | `net48` | **.NET Framework 4.8** (Legacy) |
-| **AutoCAD 2025 – 2026** | `R25.0` – `R25.1` | `net8.0-windows` | **.NET 8.0** (Core) |
-| **AutoCAD 2027** | `R26.0` | `net10.0-windows` | **.NET 10.0** (Core) |
+| **AutoCAD 2021 – 2024** | `net48` | **.NET Framework 4.8** (Legacy) |
+| **AutoCAD 2025 – 2026** | `net8.0-windows` | **.NET 8.0** (Core) |
+| **AutoCAD 2027** | `net10.0-windows` | **.NET 10.0** (Core) |
 
 &nbsp;
 <p align="center">◈ ◈ ◈</p>
